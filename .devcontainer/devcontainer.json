@@ -25,11 +25,12 @@
 	
 	// Add the IDs of extensions you want installed when the container is created.
 	"extensions": [
-		"vscjava.vscode-java-pack"
+		"vscjava.vscode-java-pack",
+		"ms-vscode.vscode-node-azure-pack"
 	],
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
-	// "forwardPorts": [],
+	"forwardPorts": [8080],
 
 	// Use 'postCreateCommand' to run commands after the container is created.
 	// "postCreateCommand": "java -version",
