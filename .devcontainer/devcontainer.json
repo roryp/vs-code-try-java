@@ -19,8 +19,7 @@
 	
 	"extensions": [
 		"vscjava.vscode-java-pack",
-		"ms-vscode.vscode-node-azure-pack",
-		"Pivotal.vscode-boot-dev-pack"
+		"ms-vscode.vscode-node-azure-pack"
 	],
 
 	"forwardPorts": [8080],
