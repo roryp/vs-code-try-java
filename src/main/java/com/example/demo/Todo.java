@@ -73,4 +73,11 @@ public class Todo {
     public int hashCode() {
         return 31;
     }
+
+    @Override
+    public String toString() {
+        return "Todo [description=" + description + ", details=" + details + ", done=" + done + ", id=" + id + "]";
+    }
+
+    
 }
